@@ -18,3 +18,8 @@ For get StatusCode from url usage:
 ```bash
 go run main.go ip --url http://amazon.com.br
 ```
+
+For test netCat from Host and Port usage: 
+```bash
+go run main.go nc  --host 192.168.0.1 --port 80
+```
