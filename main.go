@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Executando Testes...")
+	fmt.Println("Executing Tests...")
 	application := app.Tstnet()
 	erro := application.Run(os.Args)
 	if erro != nil {
